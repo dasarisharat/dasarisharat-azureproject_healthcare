@@ -1,0 +1,9 @@
+{
+	"name": "adfhealthadfs",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c93aab58-014b-4dd7-97f1-47c403d59ee3",
+		"tenantId": "9ebff29d-6a1f-4da8-92f1-64d1cc7a37f3"
+	}
+}
