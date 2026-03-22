@@ -1,8 +1,8 @@
 {
-	"name": "database_ds",
+	"name": "database_b",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "database_a_ls",
+			"referenceName": "database_b",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {

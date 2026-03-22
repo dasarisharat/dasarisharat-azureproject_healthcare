@@ -6,10 +6,10 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"database": {
+			"table": {
 				"type": "string"
 			},
-			"table": {
+			"dir": {
 				"type": "string"
 			}
 		},
@@ -23,7 +23,7 @@
 					"type": "Expression"
 				},
 				"folderPath": {
-					"value": "@dataset().database",
+					"value": "@dataset().dir",
 					"type": "Expression"
 				},
 				"fileSystem": "emr"
