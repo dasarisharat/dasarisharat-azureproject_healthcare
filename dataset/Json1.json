@@ -1,0 +1,45 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "emr_storage_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "table.json",
+				"folderPath": "config",
+				"fileSystem": "emr"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"database": {
+					"type": "string"
+				},
+				"datasource": {
+					"type": "string"
+				},
+				"tablename": {
+					"type": "string"
+				},
+				"loadtype": {
+					"type": "string"
+				},
+				"watermark": {
+					"type": "string"
+				},
+				"is_active": {
+					"type": "string"
+				},
+				"targetpath": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
