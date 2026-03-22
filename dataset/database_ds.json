@@ -1,0 +1,30 @@
+{
+	"name": "database_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "database_a_ls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"database": {
+				"type": "string"
+			},
+			"table": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().database",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().table",
+				"type": "Expression"
+			}
+		}
+	}
+}
