@@ -1,0 +1,35 @@
+{
+	"name": "databaseToparquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "emr_storage_ls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"database": {
+				"type": "string"
+			},
+			"table": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().table",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().database",
+					"type": "Expression"
+				},
+				"fileSystem": "emr"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
