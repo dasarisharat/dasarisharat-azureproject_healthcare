@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://emrhealth.dfs.core.windows.net/",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlGOEQ2RkFDLTg2MzUtNDBFNS1BMzcwLTNCMEFBM0IyQTFEQV9lNThlNGYzZC1mN2RhLTQ0MGUtOTJkNC1mZTllNjdkODY2YTAiDQp9"
+			"url": "https://emrstoragepractice.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQwRTVENTM1LTM1QUItNDRBOS1COTVELTJFRDFGQzZENERDMl81YzMxOGI5YS0yNWE3LTQzYzUtYjlkYS02YmUwZjhiZWQyZmEiDQp9"
 		}
 	}
 }
