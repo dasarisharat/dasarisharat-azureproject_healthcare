@@ -1,0 +1,9 @@
+{
+	"name": "adfhealthpractice",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "42f9ff5d-6cbd-4620-a7f6-c9f22bed3eff",
+		"tenantId": "9ebff29d-6a1f-4da8-92f1-64d1cc7a37f3"
+	}
+}
